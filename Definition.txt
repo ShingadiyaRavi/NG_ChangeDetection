@@ -1,0 +1,13 @@
+Task - 14
+
+Change Detection :
+	
+	This means when we  change the data into parent ts or html then also change the data into child component. so it will load when large project so we need to overcome it.
+	
+	We can overcome it using changeDetection. it is by default automatic change detection but we can set the time to change or set the automatic not change detection.
+
+	It will usefull for the application performance. and we can improve the appication performance using change detection.
+
+	we can stop the unnecessary change detection and reduce the load time for the appication.
+	
+	This Work when change the reference but we set the value then not work but we need to change the reference as well as value then it will work on child and detect the change.

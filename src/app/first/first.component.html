@@ -1,0 +1,10 @@
+<h1>This is a First Component As Parent</h1>
+<input  [(ngModel)]="data.name" #inputName>
+
+<button (click)="change(inputName.value)">Change The Data in Child</button>
+
+<h1>{{ data.name }}</h1>
+
+<hr><hr>
+
+<app-second [data]="data"></app-second>
